@@ -37,7 +37,7 @@ body{
     --Negro: rgb(13, 13, 13);
     --elements: hsla(0, 0%, 90%, 0.949);
     --backNueph: #ffffff;
-    --box-shadow: #d9d9d9;
+    --box-shadow: #ffffff;
     --font_shadow: 1px 1px 2px rgba(85, 85, 85, 0.2);
     --negro_opaco: rgba(37, 37, 37, 0.893);
 }
@@ -47,8 +47,9 @@ body.dark{
     funcione el dark mode...*/
     --Strong:  hsl(172, 67%, 45%); 
     --Light-strong:hsl(173, 34%, 76%); 
-    --Very_dark: hsl(183, 100%, 15%); 
+    --Very_dark: hsl(172, 67%, 45%); 
     --Dark_grayish: hsl(186, 14%, 43%); 
+    --Negro-menos-opaco: rgb(255, 255, 255);
     --Grayish: hsl(184, 14%, 56%); 
     --Light_grayish: hsl(185, 41%, 84%);
     --Very_light_grayish: hsl(189, 41%, 97%); 
@@ -56,9 +57,10 @@ body.dark{
     --White: rgba(15, 15, 15, 0.887); 
     --elements: rgba(37, 37, 37, 0.893);
     --backNueph: #000000;
-    --box-shadow: #353535;
+    --Color-span: rgba(181, 181, 181, 0.946); 
+    --box-shadow: #ffffff;
     --font_shadow: 1px 1px 2px rgba(85, 85, 85, 0.2);
-    --negro_opaco: rgba(37, 37, 37, 0.893);
+    --negro_opaco: rgb(255, 255, 255);
 }
 /*Recuerda que en la parte de arriba aun hay que editar los colores y dejar todo al 
 100...*/
@@ -123,6 +125,7 @@ header{
     letter-spacing: 0.04rem;
     color: var(--Very_dark);
     text-shadow:var(--font_shadow);
+    transition: all 350ms ease-in-out;
 }
 .cont_btns_right{
     width: clamp(200px, 100%, 350px);
@@ -139,6 +142,7 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: all 350ms ease-in-out;
 }
 .cont_btns_right nav a{
     font-family: var(--big_p);
@@ -147,6 +151,7 @@ header{
     letter-spacing: 0.05em;
     color: var(--Very_dark);
     text-decoration: none;
+    transition: all 350ms ease-in-out;
 }
 .cont_btns_right nav:hover{
     border-bottom: 1.5px solid var(--Very_dark);
@@ -255,6 +260,7 @@ main{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    transition: all 350ms ease-in-out;
 }
 /*Edicion del div de arriba, aqui va el titulo, informacion de 
 publicacion, autor e imagen principal del articulo...*/
@@ -284,6 +290,7 @@ publicacion, autor e imagen principal del articulo...*/
     width: 220px;
     height: auto;
     text-align: center;
+    transition: all 350ms ease-in-out;
 }
 .btn_materia p{
     font-family: var(--big_p);
@@ -293,6 +300,7 @@ publicacion, autor e imagen principal del articulo...*/
     color: var(--Very_dark);
     text-shadow: var(--font_shadow);
     text-transform: uppercase;
+    transition: all 350ms ease-in-out;
 }
 .titulo_atractivo{
     width: 100%;
@@ -304,6 +312,7 @@ publicacion, autor e imagen principal del articulo...*/
     letter-spacing: 0.02em;
     color: var(--negro_opaco);
     text-transform: uppercase;
+    transition: all 350ms ease-in-out;
 }
 .sub_titulo{
     width: 100%;
@@ -315,6 +324,7 @@ publicacion, autor e imagen principal del articulo...*/
     letter-spacing: 0.02em;
     font-weight: 500;
     color: var(--negro_opaco);
+    transition: all 350ms ease-in-out;
 }
 .cont_info{
     width: clamp(300px , 100%, 400px);
@@ -327,6 +337,7 @@ publicacion, autor e imagen principal del articulo...*/
     display: flex;
     justify-content: flex-start;
     align-items: center;
+    transition: all 350ms ease-in-out;
 }
 .autor h3{
     font-family: var(--big_p);
@@ -335,6 +346,7 @@ publicacion, autor e imagen principal del articulo...*/
     font-weight: 300;
     color: var(--negro_opaco);
     text-transform: uppercase;
+    transition: all 350ms ease-in-out;
 }
 .autor h3 span{
     font-weight: 600;
@@ -348,6 +360,7 @@ publicacion, autor e imagen principal del articulo...*/
     width: 100%;
     height: 2px; /* Cambia el grosor de la línea */
     background-color: var(--Very_dark); /* Cambia el color de la línea */
+    transition: all 350ms ease-in-out;
 }
 .fecha{
     width: 75%;
@@ -363,6 +376,7 @@ publicacion, autor e imagen principal del articulo...*/
     font-weight: 300;
     color: var(--negro_opaco);
     text-transform: uppercase;
+    transition: all 350ms ease-in-out;
 }
 .fecha h3 span{
     font-weight: 600;
@@ -390,6 +404,7 @@ publicacion, autor e imagen principal del articulo...*/
     display: flex;
     justify-content: center;
     flex-direction: column;
+    transition: all 350ms ease-in-out;
 }
 .des_img p{
     font-family: var(--big_p);
@@ -397,6 +412,7 @@ publicacion, autor e imagen principal del articulo...*/
     font-size: 0.9rem;
     font-weight: 300;
     color: var(--negro_opaco);
+    transition: all 350ms ease-in-out;
 }
 .des_img span{
     font-family: var(--big_p);
@@ -405,6 +421,7 @@ publicacion, autor e imagen principal del articulo...*/
     font-weight: 600;
     color: var(--negro_opaco);
     text-transform: uppercase;
+    transition: all 350ms ease-in-out;
 }
 
 /*Aquí tenemos la edicción del div de abajo*/
@@ -423,6 +440,7 @@ publicacion, autor e imagen principal del articulo...*/
     text-align: justify;
     padding: 1.2em;
     font-family: var(--big_p);
+    transition: all 350ms ease-in-out;
 }
 .articulo h2{
     font-size: 1.6em;
@@ -430,12 +448,14 @@ publicacion, autor e imagen principal del articulo...*/
     color: var(--negro_opaco);
     margin-top: 2em;
     margin-bottom: 0;
+    transition: all 350ms ease-in-out;
 }
 .articulo p{
     font-size: 1.16em;
     line-height: 1.5;
     color: var(--negro_opaco);
     letter-spacing: 0.02em;
+    transition: all 350ms ease-in-out;
 }
 .green_line{
     position: relative;
@@ -448,6 +468,7 @@ publicacion, autor e imagen principal del articulo...*/
     width: 100%;
     height: 2.5px; /* Cambia el grosor de la línea */
     background-color: var(--Very_dark);
+    transition: all 350ms ease-in-out;
 }
 /*Aqui van la foto de meso y tablillas*/
 .cont_imagenes{
@@ -503,6 +524,7 @@ publicacion, autor e imagen principal del articulo...*/
 .inicio_span{
     color: var(--Negro-menos-opaco);
     font-size: 1.1em;
+    transition: all 350ms ease-in-out;
 }
 .photo_author{
     font-size: 0.95em;
@@ -515,6 +537,7 @@ publicacion, autor e imagen principal del articulo...*/
     text-decoration: underline;
     text-decoration-color: var(--Very_dark); /* Cambia el color de la línea según tus preferencias */
     text-decoration-thickness: 1.7px;
+    transition: all 350ms ease-in-out;
 }
 .photo_author a:hover{
     text-decoration-color: var(--Strong);
@@ -528,6 +551,7 @@ publicacion, autor e imagen principal del articulo...*/
     order: 2;
     position: sticky; /* Posición inicial: estático */
     top: 0;
+    transition: all 350ms ease-in-out;
 }
 /*Este es el contenedor donde iran todas las imagenes de 
 publicidad...*/
@@ -544,6 +568,7 @@ articulos...*/
     background-color: var(--elements);
     width: 100%;
     height: auto;
+    transition: all 350ms ease-in-out;
 }
 .encabezado{
     padding: 1.3em 0.5em 1.3em 0.5em;
@@ -557,6 +582,8 @@ articulos...*/
     font-size: 1.1em;
     text-transform: uppercase;
     letter-spacing: 0.02em;
+    color: var(--Negro-menos-opaco);
+    transition: all 350ms ease-in-out;
 }
 .lineas::before,
 .lineas::after {
@@ -566,6 +593,7 @@ articulos...*/
     width: 22%;
     height: 2px;
     background-color: var(--Very_dark);
+    transition: all 350ms ease-in-out;
 }
 
 .lineas::before {
@@ -619,6 +647,7 @@ iran, arriba trabajamos con el espacio del titulo del cabezal...*/
     font-size: 0.7em;
     font-weight: 600;
     color: var(--Color-span);
+    transition: all 350ms ease-in-out;
 }
 .pre{
     width: 100%;
@@ -632,6 +661,7 @@ iran, arriba trabajamos con el espacio del titulo del cabezal...*/
     text-transform: uppercase;
     letter-spacing: 0.03em;
     line-height: 1.5;
+    transition: all 350ms ease-in-out;
 }
 /*Edicion del btn ver más, el cual se encuentra en la parte
 final del aside...*/
@@ -643,6 +673,7 @@ final del aside...*/
     display: flex;
     justify-content: center;
     align-content: center;
+    transition: all 350ms ease-in-out;
 }
 .vermas{
     text-transform: uppercase;
@@ -658,11 +689,12 @@ final del aside...*/
     text-decoration: underline;
     text-decoration-color: var(--Very_dark); /* Cambia el color de la línea según tus preferencias */
     text-decoration-thickness: 2.5px;
+    transition: all 350ms ease-in-out;
 }
 .vermas:hover{
     letter-spacing: 0.2em;
     text-decoration-color: var(--Strong);
-    animation: all 500ms ease-in-out;
+    transition: all 500ms ease-in-out;
 }
 /*Aqui esta la edicion del div que contiene las etiquetas
 relacionadas al tema del articulo...*/
@@ -691,9 +723,11 @@ relacionadas al tema del articulo...*/
     font-size: 0.8em;
     text-transform: uppercase;
     letter-spacing: 0.2em;
+    transition: all 350ms ease-in-out;
 }
 .btn_docu:hover{
     background-color: var(--Negro-menos-opaco);
+    transition: all 350ms ease-in-out;
 }
 .etiquetas{
     width: 100%;
@@ -718,10 +752,12 @@ relacionadas al tema del articulo...*/
     letter-spacing: 0.08em;
     font-weight: 600;
     text-transform: uppercase;
+    transition: all 350ms ease-in-out;
 }
 .etiqueta:hover{
     background-color: var(--Negro-menos-opaco);
     color: var(--elements);
+    transition: all 350ms ease-in-out;
 }
 
 /*aqui iniciamos con la edicion del footer...*/
@@ -756,7 +792,7 @@ footer{
     font-size: 1em;
     font-weight: 600;
     text-transform: uppercase;
-    color: var(--White);
+    color: white;
     letter-spacing: 0.1em;
 }
 .cont_ligas ul li{
@@ -767,7 +803,7 @@ footer{
     letter-spacing: 0.1em;
 }
 .cont_ligas ul li a{
-    color: var(--White);
+    color: white;
     text-decoration: none;
 }
 /*Este es un caso especial...*/
@@ -780,7 +816,7 @@ footer{
     font-size: 1em;
     font-weight: 600;
     text-transform: uppercase;
-    color: var(--White);
+    color: white;
     letter-spacing: 0.1em;
 }
 .redes{
@@ -792,7 +828,7 @@ footer{
     flex-direction: row;
 }
 .redes a i{
-    color: var(--White);
+    color: white;
     font-size: 1.5em;
 }
 .redes a i:hover{
