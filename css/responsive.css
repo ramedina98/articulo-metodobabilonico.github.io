@@ -74,6 +74,9 @@
         align-items: center;
         padding: none;
     }
+    .fecha{
+        width: 90%;
+    }
     .titulo_atractivo{
         font-size: 0.6em;
     }
