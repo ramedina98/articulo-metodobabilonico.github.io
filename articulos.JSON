@@ -2,140 +2,140 @@
 [
     {
         "imagen":"https://static.nationalgeographicla.com/files/styles/image_3200/public/jaguar_0.webp?w=1450&h=1088", 
-        "sub-titulo":"animales | photo ark", 
+        "subTitulo":"animales | photo ark", 
         "extracto":"Jaguar",
-        "link-web":"https://www.nationalgeographicla.com/animales/2020/04/jaguar"
+        "linkWeb":"https://www.nationalgeographicla.com/animales/2020/04/jaguar"
     }, 
     {
         "imagen":"https://static.nationalgeographicla.com/files/styles/image_3200/public/160419-sciex-til-luke-powell-birds-eat-dirt_thumbnail_clean_m16020-12.webp?w=1450&h=1088", 
-        "sub-titulo":"animales 1:23", 
+        "subTitulo":"animales 1:23", 
         "extracto":"¿Por qué estos pájaros comen tierra?", 
-        "link-web":"https://www.nationalgeographicla.com/animales/Por-que-estos-pajaros-comen-tierra"
+        "linkWeb":"https://www.nationalgeographicla.com/animales/Por-que-estos-pajaros-comen-tierra"
     }, 
     {
         "imagen":"https://static.nationalgeographicla.com/files/styles/image_3200/public/1894112835630_1620331096223.webp?w=1450&h=1088", 
-        "sub-titulo":"historia 2:15", 
+        "subTitulo":"historia 2:15", 
         "extracto":"La firma que puso fin a la Segunda Guerra Mundial en Europa",
-        "link-web":"https://www.nationalgeographicla.com/historia/firma-puso-fin-a-la-segunda-guerra-mundial-en-europa"
+        "linkWeb":"https://www.nationalgeographicla.com/historia/firma-puso-fin-a-la-segunda-guerra-mundial-en-europa"
     },
     {
         "imagen":"https://static.nationalgeographicla.com/files/styles/image_3200/public/1886342723700_1618837141792.webp?w=1450&h=1088", 
-        "sub-titulo":"lo que hace cuenta 0:38", 
+        "subTitulo":"lo que hace cuenta 0:38", 
         "extracto":"Lo que haces cuenta | Balancea tu dieta",
-        "link-web":"https://www.nationalgeographicla.com/medio-ambiente/lo-que-haces-cuenta-balancea-tu-dieta"
+        "linkWeb":"https://www.nationalgeographicla.com/medio-ambiente/lo-que-haces-cuenta-balancea-tu-dieta"
     },
     {
         "imagen":"https://static.nationalgeographicla.com/files/styles/image_3200/public/01-dna-nationalgeographic_2490526.webp?w=1450&h=1088", 
-        "sub-titulo":"ciencia", 
+        "subTitulo":"ciencia", 
         "extracto":"ADN: Aprende más sobre el elemento fundamental de la vida",
-        "link-web":"https://www.nationalgeographicla.com/ciencia/2019/04/adn-aprende-mas-sobre-el-elemento-fundamental-de-la-vida"
+        "linkWeb":"https://www.nationalgeographicla.com/ciencia/2019/04/adn-aprende-mas-sobre-el-elemento-fundamental-de-la-vida"
     },
     {
         "imagen":"https://static.nationalgeographicla.com/files/styles/image_3200/public/berlin-wall-reference-548158715.webp?w=1450&h=1088", 
-        "sub-titulo":"historia", 
+        "subTitulo":"historia", 
         "extracto":"Por qué se levantó el Muro de Berlín... y cómo cayó",
-        "link-web":"https://www.nationalgeographicla.com/historia/2019/11/por-que-se-levanto-el-muro-de-berlin-y-como-cayo"
+        "linkWeb":"https://www.nationalgeographicla.com/historia/2019/11/por-que-se-levanto-el-muro-de-berlin-y-como-cayo"
     },
     {
         "imagen":"https://static.nationalgeographicla.com/files/styles/image_3200/public/1160.webp?w=1450&h=1088", 
-        "sub-titulo":"espacio", 
+        "subTitulo":"espacio", 
         "extracto":"Todo lo que querías saber sobre las estrellas",
-        "link-web":"https://www.nationalgeographicla.com/espacio/2019/07/todo-lo-que-querias-saber-sobre-las-estrellas"
+        "linkWeb":"https://www.nationalgeographicla.com/espacio/2019/07/todo-lo-que-querias-saber-sobre-las-estrellas"
     },
     {
         "imagen":"https://static.nationalgeographicla.com/files/styles/image_3200/public/gettyimages-514870086.webp?w=1450&h=1088", 
-        "sub-titulo":"historia", 
+        "subTitulo":"historia", 
         "extracto":"Guerra Fría: ¿qué fue y cómo terminó?",
-        "link-web":"https://www.nationalgeographicla.com/historia/2022/03/guerra-fria-que-fue-y-como-termino"
+        "linkWeb":"https://www.nationalgeographicla.com/historia/2022/03/guerra-fria-que-fue-y-como-termino"
     },
     {
         "imagen":"https://static.nationalgeographicla.com/files/styles/image_3200/public/170110-news-japan-monkey-deer-sex-thumbnail0_1280x720_1453911619823.webp?w=1450&h=1088", 
-        "sub-titulo":"animales 0:53", 
+        "subTitulo":"animales 0:53", 
         "extracto":"Imágenes fuertes: Macaco intenta aparearse con una cierva",
-        "link-web":"https://www.nationalgeographicla.com/video/tv/imagenes-fuertes-macaco-intenta-aparearse-con-una-cierva"
+        "linkWeb":"https://www.nationalgeographicla.com/video/tv/imagenes-fuertes-macaco-intenta-aparearse-con-una-cierva"
     },
     {
         "imagen":"https://static.nationalgeographicla.com/files/styles/image_3200/public/nationalgeographic_999805.webp?w=1450&h=816", 
-        "sub-titulo":"chernóbil", 
+        "subTitulo":"chernóbil", 
         "extracto":"Los hijos de sobrevivientes no presentan transmisión de un exceso de mutaciones genéticas",
-        "link-web":"https://www.nationalgeographicla.com/ciencia/2021/04/chernobil-los-hijos-de-sobrevivientes-no-presentan-transmision-de-un-exceso-de-mutaciones-geneticas"
+        "linkWeb":"https://www.nationalgeographicla.com/ciencia/2021/04/chernobil-los-hijos-de-sobrevivientes-no-presentan-transmision-de-un-exceso-de-mutaciones-geneticas"
     },
     {
         "imagen":"https://static.nationalgeographicla.com/files/styles/image_3200/public/nationalgeographic_2172911.webp?w=1450&h=816", 
-        "sub-titulo":"salud",
+        "subTitulo":"salud",
         "extracto":"¿Qué es la yerba mate? ¿Es realmente buena para la salud?",
-        "link-web":"https://www.nationalgeographicla.com/ciencia/2023/06/que-es-la-yerba-mate-esta-bebida-con-cafeina-es-realmente-buena-para-la-salud"
+        "linkWeb":"https://www.nationalgeographicla.com/ciencia/2023/06/que-es-la-yerba-mate-esta-bebida-con-cafeina-es-realmente-buena-para-la-salud"
     },
     {
         "imagen":"https://static.nationalgeographicla.com/files/styles/image_3200/public/nationalgeographic2800777.webp?w=1450&h=1088", 
-        "sub-titulo":"ciencia",
+        "subTitulo":"ciencia",
         "extracto":"Por qué temblamos cuando hace frío: la explicación de la ciencia",
-        "link-web":"https://www.nationalgeographicla.com/ciencia/2023/06/por-que-temblamos-cuando-hace-frio-la-explicacion-de-la-ciencia"
+        "linkWeb":"https://www.nationalgeographicla.com/ciencia/2023/06/por-que-temblamos-cuando-hace-frio-la-explicacion-de-la-ciencia"
     },
     {
         "imagen":"https://static.nationalgeographicla.com/files/styles/image_3200/public/eoarctos.webp?w=1450&h=816", 
-        "sub-titulo":"animales",
+        "subTitulo":"animales",
         "extracto":"¿Un 'gatito-nutria-oso'? Descubre la extraña especie que sorprende a los científicos",
-        "link-web":"https://www.nationalgeographicla.com/animales/2023/06/un-gatito-nutria-oso-descubre-la-extrana-especie-que-sorprende-a-los-cientificos"
+        "linkWeb":"https://www.nationalgeographicla.com/animales/2023/06/un-gatito-nutria-oso-descubre-la-extrana-especie-que-sorprende-a-los-cientificos"
     },
     {
         "imagen":"https://static.nationalgeographicla.com/files/styles/image_3200/public/31717626834382c693c8o.webp?w=1450&h=816", 
-        "sub-titulo":"historia y cultura",
+        "subTitulo":"historia y cultura",
         "extracto":"Asi es Uitoto, el pueblo natal de los cuatro niños perdidos de Colombia",
-        "link-web":"https://www.nationalgeographicla.com/historia/2023/06/como-es-el-pueblo-uitoto-al-que-pertenecen-los-cuatro-ninos-perdidos-de-colombia"
+        "linkWeb":"https://www.nationalgeographicla.com/historia/2023/06/como-es-el-pueblo-uitoto-al-que-pertenecen-los-cuatro-ninos-perdidos-de-colombia"
     },
     {
         "imagen":"https://static.nationalgeographicla.com/files/styles/image_3200/public/16649_990x557-cb1271193984.webp?w=1450&h=816", 
-        "sub-titulo":"medio ambiente",
+        "subTitulo":"medio ambiente",
         "extracto":"Estas son las consecuencias del calentamiento de los mares",
-        "link-web":"https://www.nationalgeographicla.com/medio-ambiente/2023/06/por-que-nos-tiene-que-importar-el-calentamiento-de-los-oceanos"
+        "linkWeb":"https://www.nationalgeographicla.com/medio-ambiente/2023/06/por-que-nos-tiene-que-importar-el-calentamiento-de-los-oceanos"
     },
     {
         "imagen":"https://static.nationalgeographicla.com/files/styles/image_3200/public/nationalgeographic2734802.webp?w=1450&h=816", 
-        "sub-titulo":"salud",
+        "subTitulo":"salud",
         "extracto":"¿Por qué da sueño después de comer?: Lo que le sucede al cuerpo",
-        "link-web":"https://www.nationalgeographicla.com/ciencia/2023/05/por-que-da-sueno-despues-de-comer-lo-que-le-sucede-al-cuerpo"
+        "linkWeb":"https://www.nationalgeographicla.com/ciencia/2023/05/por-que-da-sueno-despues-de-comer-lo-que-le-sucede-al-cuerpo"
     },
     {
         "imagen":"https://static.nationalgeographicla.com/files/styles/image_3200/public/batalhadecampogrande-1871.webp?w=1450&h=816", 
-        "sub-titulo":"historia",
+        "subTitulo":"historia",
         "extracto":"Cuál fue la guerra más sangrienta de la historia latinoamericana",
-        "link-web":"https://www.nationalgeographicla.com/historia/2023/06/cual-fue-la-guerra-mas-sangrienta-de-la-historia-latinoamericana"
+        "linkWeb":"https://www.nationalgeographicla.com/historia/2023/06/cual-fue-la-guerra-mas-sangrienta-de-la-historia-latinoamericana"
     },
     {
         "imagen":"https://static.nationalgeographicla.com/files/styles/image_3200/public/526363349237e8f079580o.webp?w=1450&h=816", 
-        "sub-titulo":"historia",
+        "subTitulo":"historia",
         "extracto":"Quién fue Ana Frank: 5 datos que no conocías",
-        "link-web":"https://www.nationalgeographicla.com/historia/2023/06/quien-fue-ana-frank-5-datos-que-no-conocias"
+        "linkWeb":"https://www.nationalgeographicla.com/historia/2023/06/quien-fue-ana-frank-5-datos-que-no-conocias"
     },
     {
         "imagen":"https://static.nationalgeographicla.com/files/styles/image_3200/public/nationalgeographic2794594.webp?w=1450&h=816", 
-        "sub-titulo":"historia",
+        "subTitulo":"historia",
         "extracto":"¿Qué es el Corpus Christi y cuál es el origen de su celebración?",
-        "link-web":"https://www.nationalgeographicla.com/historia/2023/06/que-es-el-corpus-christi-y-cual-es-el-origen-de-su-celebracion"
+        "linkWeb":"https://www.nationalgeographicla.com/historia/2023/06/que-es-el-corpus-christi-y-cual-es-el-origen-de-su-celebracion"
     },
     {
         "imagen":"https://static.nationalgeographicla.com/files/styles/image_3200/public/nationalgeographic2707504.webp?w=1450&h=816", 
-        "sub-titulo":"salud",
+        "subTitulo":"salud",
         "extracto":"¿Qué pueden provocar los alimentos procesados en el cuerpo?",
-        "link-web":"https://www.nationalgeographicla.com/ciencia/2023/06/que-pueden-provocar-los-alimentos-procesados-en-el-cuerpo"
+        "linkWeb":"https://www.nationalgeographicla.com/ciencia/2023/06/que-pueden-provocar-los-alimentos-procesados-en-el-cuerpo"
     },
     {
         "imagen":"https://static.nationalgeographicla.com/files/styles/image_3200/public/nationalgeographic_2741759.webp?w=1450&h=816&p=top", 
-        "sub-titulo":"historia",
+        "subTitulo":"historia",
         "extracto":"¿Fue esta extraña especie de cerebro diminuto la primera en enterrar a sus muertos?",
-        "link-web":"https://www.nationalgeographicla.com/historia/2023/06/fue-esta-extrana-especie-de-cerebro-diminuto-la-primera-en-enterrar-a-sus-muertos"
+        "linkWeb":"https://www.nationalgeographicla.com/historia/2023/06/fue-esta-extrana-especie-de-cerebro-diminuto-la-primera-en-enterrar-a-sus-muertos"
     },
     {
         "imagen":"https://static.nationalgeographicla.com/files/styles/image_3200/public/nationalgeographic_740366.webp?w=1450&h=816", 
-        "sub-titulo":"animales",
+        "subTitulo":"animales",
         "extracto":"Los bichos de luz están desapareciendo: 5 acciones para protegerlos",
-        "link-web":"https://www.nationalgeographicla.com/animales/2023/06/los-bichos-de-luz-estan-desapareciendo-5-acciones-para-protegerlos"
+        "linkWeb":"https://www.nationalgeographicla.com/animales/2023/06/los-bichos-de-luz-estan-desapareciendo-5-acciones-para-protegerlos"
     },
     {
         "imagen":"https://static.nationalgeographicla.com/files/styles/image_3200/public/nationalgeographic_2737205x.webp?w=1450&h=816", 
-        "sub-titulo":"ciencia",
+        "subTitulo":"ciencia",
         "extracto":"¿Se cruzaron los primeros humanos con una población 'fantasma'?",
-        "link-web":"https://www.nationalgeographicla.com/ciencia/2023/05/se-cruzaron-los-primeros-humanos-con-una-poblacion-fantasma"
+        "linkWeb":"https://www.nationalgeographicla.com/ciencia/2023/05/se-cruzaron-los-primeros-humanos-con-una-poblacion-fantasma"
     }
 ]
