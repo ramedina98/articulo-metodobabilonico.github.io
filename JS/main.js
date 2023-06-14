@@ -64,16 +64,17 @@ request.onreadystatechange = function(){
         const contentJSON = request.responseText;
         const article = JSON.parse(contentJSON);
         //here we show the info in JSON file...
-        let x = 0; 
-        do{
-            /*I have to writte a function that check if a 
-            randome number is repeated or not...*/
+        let x = 0;
+        const usedNumbers = []; // Array para almacenar los números utilizados
+        do {
             let j = 0;
-            j = RandomeNumbers();
-            makeArticles(article[j].imagen, article[j].subTitulo, 
-                article[j].subLink, article[j].extracto, article[j].linkWeb);
-                x++;
-        }while(x !== 3);
+            do {
+                j = RandomeNumbers();
+            }while (usedNumbers.includes(j)); // Verifica si el número ya ha sido utilizado
+            usedNumbers.push(j); // Agrega el número al array de números utilizados
+            makeArticles(article[j].imagen, article[j].subTitulo, article[j].subLink, article[j].extracto, article[j].linkWeb);
+            x++;
+        } while (x !== 3);
     }
 };
 request.send();
