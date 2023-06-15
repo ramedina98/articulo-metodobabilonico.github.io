@@ -61,6 +61,12 @@
     .cont_des_img{
         display: none;
     }
+    .cont_etiquetas{
+        margin-top: 1.2rem;
+    }
+    .btn_docu{
+        font-size: 0.75em;
+    }
 }
 @media screen and (max-width: 425px){
     .uned_plus{

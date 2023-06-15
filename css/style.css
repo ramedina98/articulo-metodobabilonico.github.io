@@ -565,7 +565,6 @@ publicidad...*/
     width: 100%;
     height: 300px;
     margin-bottom: 1.2em;
-    background-image: url("https://cdn.milenio.com/uploads/media/2019/09/19/estima-proximas-semanas-servicio-comida.jpg");
     background-size: cover;
 }
 /*aqui van todas las cartas con información de los 
@@ -640,6 +639,7 @@ iran, arriba trabajamos con el espacio del titulo del cabezal...*/
     height: 100%;
     background-image: url("https://static.nationalgeographicla.com/files/styles/image_3200/public/1160.webp?w=1450&h=1088");
     background-size: cover;
+    background-position: center;
 }
 .cont_info_car{
     width: 100%;
@@ -737,7 +737,7 @@ final del aside...*/
 relacionadas al tema del articulo...*/
 .cont_etiquetas{
     width: 75%;
-    height: 120px;
+    height: auto;
     display: flex;
     justify-content: center;
     align-items: flex-start;
