@@ -78,7 +78,7 @@ function deleteArticles(){
 function calls(){
     //we open the JSON file... 
     const request =  new XMLHttpRequest();
-    request.open("GET", "/JS/art.json", true);
+    request.open("GET", "art.json", true);
 
     request.onreadystatechange = function(){
         if(request.readyState === 4 && request.status === 200) {
