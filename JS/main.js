@@ -77,8 +77,9 @@ function deleteArticles(){
 }
 function calls(){
     //we open the JSON file... 
+    const url = "https://ramedina98.github.io/api_nat/db.json";
     const request =  new XMLHttpRequest();
-    request.open("GET", "art.json", true);
+    request.open("GET", url, true);
 
     request.onreadystatechange = function(){
         if(request.readyState === 4 && request.status === 200) {
