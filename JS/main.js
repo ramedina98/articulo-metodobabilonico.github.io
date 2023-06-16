@@ -88,10 +88,10 @@ function calls(){
             //here we show the info in JSON file...
             let x = 0;
             const usedNumbers = []; // Array para almacenar los números utilizados
+            let j = 0;
             do {
-                let j = 0;
                 do {
-                    j = RandomeNumbers(24);
+                    j = RandomeNumbers(article.length);
                 }while (usedNumbers.includes(j)); // Verifica si el número ya ha sido utilizado
                 usedNumbers.push(j); // Agrega el número al array de números utilizados
                 makeArticles(article[j].imagen, article[j].subTitulo, article[j].subLink, article[j].extracto, article[j].linkWeb);
