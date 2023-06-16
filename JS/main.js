@@ -1,3 +1,4 @@
+//comentario para ver si se cambio de rama...
 const btnSwitch = document.querySelector('.switch');
 const mainElement = document.querySelector('.cont_car_all');
 const mainEtiquetas = document.querySelector('.etiquetas');
