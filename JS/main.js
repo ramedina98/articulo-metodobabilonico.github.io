@@ -76,39 +76,58 @@ function RandomeNumbers(rango) {
 function deleteArticles(){
     mainElement.innerHTML = "";
 }
-function calls(){
-    //we open the JSON file... 
-    const url = "https://ramedina98.github.io/api_nat/db.json";
-    const request =  new XMLHttpRequest();
-    request.open("GET", url, true);
-
-    request.onreadystatechange = function(){
-        if(request.readyState === 4 && request.status === 200) {
-            const contentJSON = request.responseText;
-            const article = JSON.parse(contentJSON);
-            //here we show the info in JSON file...
+/*Function that helps us to get the info from the api...*/
+const loadArticles = async() => {
+    try{
+        //here we make a request...
+        const answer = await fetch("https://ramedina98.github.io/api_nat/db.json");
+        //if the answer is correct...
+        if(answer.status === 200){
+            //get the information...
+            const data = await answer.json();
             let x = 0;
-            const usedNumbers = []; // Array para almacenar los números utilizados
-            let j = 0;
-            do {
-                do {
-                    j = RandomeNumbers(article.length);
-                }while (usedNumbers.includes(j)); // Verifica si el número ya ha sido utilizado
-                usedNumbers.push(j); // Agrega el número al array de números utilizados
-                makeArticles(article[j].imagen, article[j].subTitulo, article[j].subLink, article[j].extracto, article[j].linkWeb);
-                x++;
-            }while (x !== 3);
+            let nums = [];
+            let num;
+            //Maker of randome numbers...
+            do{
+                num = RandomeNumbers(data.length);
+                if(x === 0){
+                    nums[0] = num;
+                    x++;
+                }
+                else if(x === 1){
+                    if(num !== nums[0]){
+                        nums[1] = num;
+                        x++;
+                    }
+                }
+                else if(x === 2){
+                    if(num !== nums[0] && num !== nums[1]){
+                        nums[2] = num;
+                        x++;
+                    }
+                }
+            }while(x !== 3);
+            x = 0; 
+            //we send the data to the function that creates the HTML...
+            do{
+                let i = nums[x];
+                makeArticles(data[i].imagen, data[i].subTitulo, data[i].subLink, 
+                    data[i].extracto, data[i].linkWeb);
+                x++; 
+            }while(x !== 3);
         }
-    };
-    request.send();
+    }catch(error){
+        console.log(error);
+    }
 }
-calls();
+loadArticles();
 //this btn refreshes the sider and shows new articles...
 btnShowMoere.addEventListener('click', (e) => {
     e.preventDefault();
     deleteArticles();
-    calls();
-})
+    loadArticles();
+});
 //this funtion makes
 let x = 0; 
 let j = 0;

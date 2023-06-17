@@ -612,7 +612,7 @@ articulos...*/
 iran, arriba trabajamos con el espacio del titulo del cabezal...*/
 .cont_car_all{
     width: 100%;
-    height: auto;
+    height: 1160px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -627,7 +627,7 @@ iran, arriba trabajamos con el espacio del titulo del cabezal...*/
     text-decoration: none;
 }
 .cont_car{
-    width: 87%;
+    width: 95%;
     height: 350px;
     margin-bottom: 1.2rem;
 }
