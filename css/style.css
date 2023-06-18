@@ -369,7 +369,7 @@ publicacion, autor e imagen principal del articulo...*/
     transition: all 350ms ease-in-out;
 }
 .fecha{
-    width: 75%;
+    width: 80%;
     height: 30px;
     display: flex;
     justify-content: flex-start;
